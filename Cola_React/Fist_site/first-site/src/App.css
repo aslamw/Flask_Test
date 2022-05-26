@@ -1,0 +1,84 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header, footer{
+  background-color: black;
+  color: white;
+}
+
+header{
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2%;
+  align-items: center;
+}
+header h2{
+  margin-top: 1px;
+  padding-left: 1%;
+  cursor: pointer;
+}
+footer{
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
+.menu{
+  display: flex;
+  list-style: none;
+}
+.menu li{
+  margin-right: 10px;
+  cursor: pointer;
+}
+.menu li:hover{
+  text-decoration: underline;
+}
+
+section{
+  display: flex;
+  height: calc(100vh - 148px);
+  padding: 20px;
+}
+section .left{
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1px solid gray;
+  padding-right: 60px;
+}
+section .left strong{
+  margin: 10px 0;
+}
+section .left span{
+  text-align:center;
+}
+section .right{
+  display: flex;
+  justify-content: space-around;
+  height: 180px;
+  flex-direction: column;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gainsboro;
+  width: 100%;
+}
+section .right a{
+  margin-top: 20px;
+}
+section img{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 5%;
+}

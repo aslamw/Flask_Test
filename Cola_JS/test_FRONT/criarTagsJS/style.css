@@ -1,0 +1,34 @@
+body{
+    padding: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+a{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+
+    padding: 2%;
+    border-radius: 10px;
+
+}
+a:hover{
+    background-color: rgb(156, 155, 155);
+}
+main{
+
+    margin: 0 auto;
+    margin-top: 15%;
+}
+
+.user{
+
+    background-color: #c3c3c3;
+
+    padding: 2%;
+    border-radius: 8px;
+
+    font-family: sans-serif;
+}

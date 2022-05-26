@@ -1,0 +1,46 @@
+.App{
+    display: flex;
+}
+
+.Usercard {
+    border: 1px solid gray;
+    height: 340px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 8px 8px 8px 0 rgb(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.Usercard img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+
+    background-color: aquamarine;
+    padding: 2%;
+}
+.Usercard strong{
+    margin-top: 20px;
+}
+.Usercard span{
+    color: gray;
+    font-size: 12px;
+}
+.Usercard button{
+    border: none;
+    background-color: aquamarine;
+    color: white;
+    height: 28px;
+    width: 100px;
+
+    margin-top: 10px;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+.Usercard button:hover{
+    opacity: 0.6;
+}

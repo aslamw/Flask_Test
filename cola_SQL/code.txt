@@ -1,0 +1,2 @@
+join , on : juntar tabela e te 4 tipos de join
+references -table- (coluna) : usado como referencia de tabela
