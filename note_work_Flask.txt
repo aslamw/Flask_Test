@@ -1,0 +1,31 @@
+Pasta migração:                      Alembic
+
+ prevê a criação, gestão e invocação de gestão de mudanças scripts para um banco de dados relacional, usando SQLAlchemy como mecanismo subjacente. Este tutorial fornecerá uma introdução completa à teoria e ao uso dessa ferramenta. 
+
+Ambiente de migração:
+yourproject/
+    alembic/
+        env.py
+        README
+        script.py.mako
+        versions/
+            3512b954651e_add_account.py
+            2b1ae634e5cd_add_order_id.py
+            3adcc9a56557_rename_username_field.py
+
+site: https://alembic.sqlalchemy.org/en/latest/tutorial.html#the-migration-environment
+---------------------------------------------------------------------------
+
+salvar informações de extemções salvas: pip freeze > requirements.txt
+para instalar: pip install -r requirements.txt
+mostra as dependencias: pip freeze
+
+---------------------------------------------------------------------------
+
+
+
+
+
+
+
+
